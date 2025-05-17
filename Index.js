@@ -1,6 +1,10 @@
 document.getElementById("contactForm").addEventListener("submit", function (e) {
     e.preventDefault();
+<<<<<<< HEAD
   
+=======
+       
+>>>>>>> ca7edf0fffc8f9eeede267cd36aa2041fdd3fe7b
     const name = document.getElementById("name").value.trim();
     const email = document.getElementById("email").value.trim();
     const message = document.getElementById("message").value.trim();
@@ -16,4 +20,8 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
     formMessage.textContent = "Message sent successfully!";
     this.reset();
   });
+<<<<<<< HEAD
   
+=======
+  
+>>>>>>> ca7edf0fffc8f9eeede267cd36aa2041fdd3fe7b
